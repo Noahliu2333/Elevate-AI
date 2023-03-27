@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Elevate-AI Giphy Search
+
+It is a website that employes react, typescrpit, and css to search for the gits based on the keywords provided. 
+ - if the search with nothing, it will generate a error message
+ - if there is nothing matches with the keyword, it returns nothing
+ - Unfortunately, Giphy Api only provides the top 50 matches. 
+ - the app is deployed with AWS. 
+ Please feel free to reach out to me with any questions! - zelinl@usc.edu
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
