@@ -1,0 +1,95 @@
+body {
+  background-color: black !important;
+  font-family: "Itim", cursive;
+  font-size: 5rem;
+  text-align: center;
+  height: 100vh;
+
+  align-items: center;
+}
+.header1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+h1 {
+  display: inline-block;
+
+  font-weight: 1000;
+
+  height: 100%;
+  font-weight: bold !important;
+  font-size: 60px !important;
+  /* background-repeat: no-repeat; */
+  background: -webkit-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container {
+  display: grid !important;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+
+.item-1 {
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
+/* .item-5 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+} */
+.search {
+  width: 400px;
+  margin: 20px auto;
+}
+.gifs {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif {
+  padding: 0 2px;
+  align-self: center;
+  justify-self: center;
+}
+
+.pag {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.page-link {
+  color: black !important;
+}
+.active > .page-link {
+  background-color: purple !important;
+  border-color: purple !important;
+}
+.search {
+  outline: none !important;
+}
+button {
+  margin: 20px auto !important;
+  background-color: purple !important;
+  border: none !important;
+}
+
+form {
+  margin: 0 auto;
+}
