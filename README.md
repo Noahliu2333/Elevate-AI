@@ -5,6 +5,8 @@ It is a website that employes react, typescrpit, and css to search for the gits 
  - if there is nothing matches with the keyword, it returns nothing
  - Unfortunately, Giphy Api only provides the top 50 matches. 
  - the app is deployed with AWS:http://elevate-project.s3-website.us-east-2.amazonaws.com/. 
+ 
+ 
  Please feel free to reach out to me with any questions! - zelinl@usc.edu
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
