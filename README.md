@@ -1,6 +1,8 @@
 # Elevate-AI Giphy Search
 
 It is a website that employes react, typescrpit, and css to search for the gits based on the keywords provided. 
+ 
+ - It starts with the trending 50 gits at the time. 
  - if the user search with nothing, it will generate a error message
  - if there is nothing matches with the keyword, it returns nothing
  - Unfortunately, Giphy Api only provides the top 50 matches. 
